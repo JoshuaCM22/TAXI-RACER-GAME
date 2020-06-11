@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/logo.png">
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <title>TAXI RACER GAME</title>
+</head>
+
+<body>
+    <div id="titleContainer">
+        <b>TAXI RACER GAME</b>
+    </div>
+    <div id="instructionsAndControlsContainer">
+        <b>Instructions:</b> Avoid to collide in any cars as long as you can.<br />
+        <b>Controls:</b> Left Arrow, Right Arrow, Up Arrow, Down Arrow
+    </div>
+    <div id="scoreContainer">
+        Your Score: <span id="score">0</span>
+    </div>
+    <div id="roadContainer">
+        <div id="line1" class="line"></div>
+        <div id="line2" class="line"></div>
+        <div id="line3" class="line"></div>
+        <div id="taxiCar" class="car">
+            <div class="frontGlass"></div>
+            <div class="backGlass"></div>
+            <div class="frontLightLeft"></div>
+            <div class="frontLightRight"></div>
+            <div class="frontWheelLeft"></div>
+            <div class="frontWheelRight"></div>
+            <div class="backWheelLeft"></div>
+            <div class="backWheelRight"></div>
+        </div>
+        <div id="barrierCar1" class="car">
+            <div class="frontGlass"></div>
+            <div class="backGlass"></div>
+            <div class="frontLightLeft"></div>
+            <div class="frontLightRight"></div>
+            <div class="frontWheelLeft"></div>
+            <div class="frontWheelRight"></div>
+            <div class="backWheelLeft"></div>
+            <div class="backWheelRight"></div>
+        </div>
+        <div id="barrierCar2" class="car">
+            <div class="frontGlass"></div>
+            <div class="backGlass"></div>
+            <div class="frontLightLeft"></div>
+            <div class="frontLightRight"></div>
+            <div class="frontWheelLeft"></div>
+            <div class="frontWheelRight"></div>
+            <div class="backWheelLeft"></div>
+            <div class="backWheelRight"></div>
+        </div>
+        <div id="barrierCar3" class="car">
+            <div class="frontGlass"></div>
+            <div class="backGlass"></div>
+            <div class="frontLightLeft"></div>
+            <div class="frontLightRight"></div>
+            <div class="frontWheelLeft"></div>
+            <div class="frontWheelRight"></div>
+            <div class="backWheelLeft"></div>
+            <div class="backWheelRight"></div>
+        </div>
+        <div id="startOrRestartTheGameContainer">
+            <button id="startOrRestartTheGame">
+                <b>Read the instructions and controls first</b>
+                <br>
+                <br>
+                <small id="smallText">(click here to start the game)</small>
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript" src="jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery/main.js"></script>
+</body>
+
+</html>
